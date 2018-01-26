@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 50px;
+  padding: 5px;
+  padding-bottom:15px;
+  color: white;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.navBar {
+  background-color: #282828;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: left;
+  width: 61%;
+  height: 100vh;
+  padding-left: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.navItems {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: left;
+}
+
+.close-div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.closeMenu {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #0000;
+  margin-right: 5px;
+  background-color: #28282800;
+}
+
+.openMenu {
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  z-index: 1;
+  background-color: #28282800;
+  border: 2px solid #0000;
+  border-radius: 100px;
+}
+
+.closeMenu:hover {
+  border: 2px solid #ddd;
+  border-radius: 100px;
+}
+.openMenu:hover {
+  border: 2px solid #ddd;
+  border-radius: 100px;
+}
+
+.titleSpacer {
+  width: 50px;
+  margin: 5px 5px 5px 5px;
+  border: 2px solid #0000;
+}
+
+.card {
+  border: 2px solid #eee;
+  border-radius: 2em;
+}
+
+#cardList {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main {
+  width: 100vw;
+  /* position: absolute; */
+  /* z-index: 0; */
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+/* tablet */
+@media (min-width:400px) {
+  .navBar {
+    width: 35%;
+    /* position: absolute; */
+    /* z-index: 0; */
+  }
+}
+
+/* Desktop */
+@media (min-width:900px) {
+  .navBar {
+    width: 20%;
+    /* position: absolute; */
+    /* z-index: 0; */
+  }
+
+  .card {
+    width: 50vw;
+  }
+}
