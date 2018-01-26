@@ -21,3 +21,20 @@ features
   we have battery level access
 
 future versions
+
+
+
+Intro
+* Hi there my name is Clark Walker
+* I'm a full-stack software developer
+* Technology is a recent interest for me I wasn't interested in computers beyond video games at all until about 2012 I was 24, I grew up playing music with my Mom and step-Dad and while I was always intellectually curious I thought I couldn't do academic things.  I taught myself a lot of music theory 
+
+Problem Statement
+
+Demo
+
+Technologies I used
+
+Challenges Overcome
+
+future implementations
